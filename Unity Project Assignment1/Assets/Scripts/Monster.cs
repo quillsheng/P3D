@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
-    public GameObject deathfxPrefab;
+    public GameObject deathfxPrefab;//destory fx
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +19,12 @@ public class Monster : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject, 0.5f);
-        Instantiate(deathfxPrefab, transform.position, Quaternion.identity);
+        if(other.tag == "stone")
+        {
+            Destroy(gameObject, 0.2f);
+            Destroy(other.gameObject);
+            Instantiate(deathfxPrefab, transform.position, Quaternion.identity);
+        }
+      
     }
 }
