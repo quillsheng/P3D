@@ -22,15 +22,18 @@ public class Fire : MonoBehaviour
         {
            anim.SetTrigger("Sleep");
         }
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            anim.SetTrigger("Die");
+        }
     }
-
     //private void OnTriggerEnter(Collider other)
     //{
-        //if (other.tag == "potion")
-        //{
-            //Destroy(gameObject, 0.2f);
-            //Destroy(other.gameObject);
-        //}
+    //if (other.tag == "potion")
+    //{
+    //Destroy(gameObject, 0.2f);
+    //Destroy(other.gameObject);
+    //}
 
     //}
 }
