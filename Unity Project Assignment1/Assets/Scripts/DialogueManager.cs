@@ -24,7 +24,7 @@ public class DialogueManager : MonoBehaviour
         dialogueUI.SetActive(false);
     }
 
-   
+ 
     void OnMouseOver()
     {
         distance = Vector3.Distance(player.transform.position, this.transform.position);
