@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2042.292, g: 2163.3145, b: 3169.668, a: 1}
+  m_IndirectSpecularColor: {r: 2040.5674, g: 2161.9414, b: 3168.8555, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 2651624}
   - component: {fileID: 2651623}
   m_Layer: 11
-  m_Name: Bone_01_Drop (1)
+  m_Name: Bone
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9428,7 +9428,7 @@ GameObject:
   - component: {fileID: 242911528}
   - component: {fileID: 242911529}
   m_Layer: 11
-  m_Name: Bone_Drop
+  m_Name: Bone
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24282,8 +24282,8 @@ GameObject:
   - component: {fileID: 616266357}
   - component: {fileID: 616266356}
   - component: {fileID: 616266359}
-  m_Layer: 11
-  m_Name: sleepPotion
+  m_Layer: 0
+  m_Name: sleepPotion1
   m_TagString: potion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28818,7 +28818,7 @@ GameObject:
   - component: {fileID: 775466410}
   - component: {fileID: 775466409}
   m_Layer: 11
-  m_Name: Rock_Drop (11)
+  m_Name: Stone
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31679,7 +31679,7 @@ GameObject:
   - component: {fileID: 842656008}
   - component: {fileID: 842656007}
   m_Layer: 11
-  m_Name: Bone_01_Drop
+  m_Name: Bone
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31845,7 +31845,7 @@ GameObject:
   - component: {fileID: 851032692}
   - component: {fileID: 851032691}
   m_Layer: 11
-  m_Name: Rock_Drop (6)
+  m_Name: Stone
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36483,19 +36483,39 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 7e4cf185bdd2cad4bbdd5461011d7a99, type: 3}
       propertyPath: m_Name
-      value: Light_05 (1)
+      value: Torch
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7e4cf185bdd2cad4bbdd5461011d7a99, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7e4cf185bdd2cad4bbdd5461011d7a99, type: 3}
+      propertyPath: m_TagString
+      value: stone
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7e4cf185bdd2cad4bbdd5461011d7a99, type: 3}
       propertyPath: m_RootOrder
       value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7e4cf185bdd2cad4bbdd5461011d7a99, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7e4cf185bdd2cad4bbdd5461011d7a99, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7e4cf185bdd2cad4bbdd5461011d7a99, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7e4cf185bdd2cad4bbdd5461011d7a99, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.655
+      value: -5.6549997
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7e4cf185bdd2cad4bbdd5461011d7a99, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.0475006
+      value: 2.05
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7e4cf185bdd2cad4bbdd5461011d7a99, type: 3}
       propertyPath: m_LocalPosition.z
@@ -36671,7 +36691,7 @@ GameObject:
   - component: {fileID: 987141212}
   - component: {fileID: 987141211}
   m_Layer: 11
-  m_Name: Bone_Drop (6)
+  m_Name: Bone
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37741,7 +37761,7 @@ GameObject:
   - component: {fileID: 1025696284}
   - component: {fileID: 1025696283}
   m_Layer: 11
-  m_Name: Rock_Drop (4)
+  m_Name: Stone
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39671,7 +39691,7 @@ GameObject:
   - component: {fileID: 1091388911}
   - component: {fileID: 1091388910}
   m_Layer: 11
-  m_Name: Rock_Drop (1)
+  m_Name: Rock
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40117,7 +40137,7 @@ GameObject:
   - component: {fileID: 1109876846}
   - component: {fileID: 1109876845}
   m_Layer: 11
-  m_Name: sleepPotion (1)
+  m_Name: sleepPotion
   m_TagString: potion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43700,7 +43720,7 @@ GameObject:
   - component: {fileID: 1200248331}
   - component: {fileID: 1200248330}
   m_Layer: 11
-  m_Name: Rock_Drop (2)
+  m_Name: Stone
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44516,6 +44536,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5bfb195eb927f8442aafcb55af9e12ee, type: 3}
   m_PrefabInstance: {fileID: 1687219203}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1224329269 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 7e4cf185bdd2cad4bbdd5461011d7a99, type: 3}
+  m_PrefabInstance: {fileID: 982324021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1224329272
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224329269}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0.5
+  m_AngularDrag: 0.5
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!135 &1224329273
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224329269}
+  m_Material: {fileID: 13400000, guid: 01571ba68fb2dad46aa03094ab219579, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3243366
+  m_Center: {x: 0, y: 0.085833475, z: 0.12773702}
 --- !u!1001 &1228233222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45285,7 +45339,7 @@ GameObject:
   - component: {fileID: 1233519593}
   - component: {fileID: 1233519592}
   m_Layer: 11
-  m_Name: Rock_Drop (7)
+  m_Name: Rock
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48205,7 +48259,7 @@ GameObject:
   - component: {fileID: 1307220794}
   - component: {fileID: 1307220793}
   m_Layer: 11
-  m_Name: Rock_Drop (10)
+  m_Name: Stone
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50349,6 +50403,7 @@ Transform:
   - {fileID: 1558334571}
   - {fileID: 1307220792}
   - {fileID: 775466408}
+  - {fileID: 1414124752}
   - {fileID: 987784021}
   m_Father: {fileID: 0}
   m_RootOrder: 38
@@ -51527,7 +51582,7 @@ GameObject:
   - component: {fileID: 1410572237}
   - component: {fileID: 1410572236}
   m_Layer: 11
-  m_Name: Rock_Drop (8)
+  m_Name: Stone
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51738,6 +51793,118 @@ VisualEffect:
       m_Array: []
     m_Bool:
       m_Array: []
+--- !u!1 &1414124748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1414124752}
+  - component: {fileID: 1414124751}
+  - component: {fileID: 1414124750}
+  - component: {fileID: 1414124749}
+  - component: {fileID: 1414124753}
+  m_Layer: 11
+  m_Name: Torch
+  m_TagString: stone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &1414124749
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414124748}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0.5
+  m_AngularDrag: 0.2
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!23 &1414124750
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414124748}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d08a0d1aba6bbce4b815d4bd76548e32, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1414124751
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414124748}
+  m_Mesh: {fileID: 4300000, guid: 7e4cf185bdd2cad4bbdd5461011d7a99, type: 3}
+--- !u!4 &1414124752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414124748}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 8.088125, y: 0.521, z: -15.410999}
+  m_LocalScale: {x: 1, y: 0.33333334, z: 0.62499994}
+  m_Children: []
+  m_Father: {fileID: 1348713697}
+  m_RootOrder: 63
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!135 &1414124753
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414124748}
+  m_Material: {fileID: 13400000, guid: 01571ba68fb2dad46aa03094ab219579, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3243366
+  m_Center: {x: 0.00000071525574, y: 0.085833475, z: 0.12773654}
 --- !u!1001 &1414621511
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56668,7 +56835,7 @@ GameObject:
   - component: {fileID: 1553413069}
   - component: {fileID: 1553413068}
   m_Layer: 11
-  m_Name: Rock_Drop (5)
+  m_Name: Stone
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57276,7 +57443,7 @@ GameObject:
   - component: {fileID: 1558334573}
   - component: {fileID: 1558334572}
   m_Layer: 11
-  m_Name: Rock_Drop (9)
+  m_Name: Stone
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59126,7 +59293,7 @@ GameObject:
   - component: {fileID: 1620253249}
   - component: {fileID: 1620253251}
   - component: {fileID: 1620253250}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61264,7 +61431,7 @@ GameObject:
   - component: {fileID: 1661836835}
   - component: {fileID: 1661836834}
   m_Layer: 11
-  m_Name: Bone_Drop (7)
+  m_Name: Bone
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65043,7 +65210,7 @@ GameObject:
   - component: {fileID: 1789731170}
   - component: {fileID: 1789731169}
   m_Layer: 11
-  m_Name: Rock_Drop (3)
+  m_Name: Rock
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65737,7 +65904,7 @@ GameObject:
   - component: {fileID: 1797089468}
   - component: {fileID: 1797089467}
   m_Layer: 11
-  m_Name: Rock_Drop
+  m_Name: Stone
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66456,7 +66623,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811931478}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.03, y: 0, z: 0}
+  m_LocalPosition: {x: -2.03, y: -0.76, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -68391,7 +68558,7 @@ GameObject:
   - component: {fileID: 1876112888}
   - component: {fileID: 1876112887}
   m_Layer: 11
-  m_Name: Bone_Drop (8)
+  m_Name: Bone
   m_TagString: stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73415,7 +73582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5710151748172337525, guid: e24935f928ce0ae4d8919abfe1236084, type: 3}
       propertyPath: m_RootOrder
-      value: 63
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 5710151748172337525, guid: e24935f928ce0ae4d8919abfe1236084, type: 3}
       propertyPath: m_LocalScale.x
@@ -76407,7 +76574,7 @@ GameObject:
   - component: {fileID: 2085723015}
   - component: {fileID: 2085723017}
   - component: {fileID: 2085723016}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Smoke (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
